@@ -2,7 +2,7 @@
 
 /**
 *	main - entry point
-*	Result: 0, print string
+*	Return: 0 and print string
 */
 
 int main(void)
