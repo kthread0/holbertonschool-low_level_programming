@@ -2,13 +2,12 @@
 
 int _isupper(int c)
 {
-	int i = 0;
-	c = 0;
-
-	for (i = 65; i < 91; i++)
+	if (c >= 'A' && c <= 'Z')
 	{
-		c = 1;
+        	return 1;
 	}
-
-	return (0);
+    	else
+	{
+        	return 0;
+	}
 }
