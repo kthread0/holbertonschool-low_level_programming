@@ -2,6 +2,7 @@
 
 /**
  *	_isupper - entry point for function
+ *	c: value for character
  *	Return: 0 if lowercase, 1 if uppercase
  */
 
