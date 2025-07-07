@@ -3,12 +3,10 @@
 /**
  * print_numbers - prints the numbers from 0 to 9, followed by a new line
  *
- * Description: This function prints digits 0 through 9 in sequence,
- * then prints a newline character
+ * Description: This function prints digits 0 through 9 in sequence
  *
  * Return: void
  */
-
 void print_numbers(void)
 {
 	int digit;
