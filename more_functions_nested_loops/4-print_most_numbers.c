@@ -1,22 +1,17 @@
 #include "main.h"
-
 /**
  * print_most_numbers - prints the numbers from 0 to 9
- * Return: number
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = 0; c <= 9; c++)
+	for (i = 48; i < 58; i++)
 	{
-		if (c == 2 || c == 4)
-		{
-			continue;
-		}
-
-		_putchar('0' + c);
+		if (i == 50 || i == 52)
+			i++;
+		_putchar(i);
 	}
 	_putchar('\n');
 }
-

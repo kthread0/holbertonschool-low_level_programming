@@ -1,19 +1,12 @@
 #include "main.h"
 
 /**
- *	_isdigit - entry point for function
- *	@c: value for digit
- *	Return: 0 if NOT digit, 1 if digit
- */
+* _isdigit - entry point
+* @digit: digit parameter
+* Return: return 1 if its a digit, 0 otherwise
+*/
 
-int _isdigit(int c)
+int _isdigit(int digit)
 {
-	if (c >= '0' && c <= '9')
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+	return ((digit > 47 && digit < 58) ? 1 : 0);
 }
