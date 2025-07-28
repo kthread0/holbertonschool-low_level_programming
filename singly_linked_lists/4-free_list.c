@@ -13,15 +13,16 @@
  */
 
 void free_list(list_t *head) {
-  list_t *temp;
+	list_t *temp;
 
-  if (head == NULL || head == NULL)
-    return;
-
-  while (head != NULL) {
-    temp = head;
-    head = (head)->next;
-    free(temp->str);
-    free(temp);
-  }
+	if (head == NULL || head == NULL)
+	{
+		return;
+	}
+	while (head != NULL) {
+		temp = head;
+		head = (head)->next;
+		free(temp->str);
+		free(temp);
+	}
 }
