@@ -12,14 +12,16 @@
  * Return: Nothing (void)
  */
 
-void free_list(list_t *head) {
+void free_list(list_t *head)
+{
 	list_t *temp;
 
 	if (head == NULL || head == NULL)
 	{
 		return;
 	}
-	while (head != NULL) {
+	while (head != NULL)
+	{
 		temp = head;
 		head = (head)->next;
 		free(temp->str);
